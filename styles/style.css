@@ -27,14 +27,14 @@ body {
 nav {
   z-index: 99;
   border-radius: 3rem;
-  width: 100%;
+  width: 100vw;
   border-color: #ee1717;
   position: fixed;
   left: center;
   /* top: 0%; */
   /* margin-top: 2rem; */
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  /* margin-left: 0.5rem; */
+  /* margin-right: 0.5rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,18 +143,17 @@ section{
   box-shadow: 6px 6px 12px #ee2d2d, -6px -6px 12px #3d66ec;
 }
 .introTXT{
-  font-size: 3em;
+  font-size: 5vw;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500; 
   font-family: "poppins", sans-serif;
   margin-left: 8%;
 }
 
 .text-pg-01{
- color: red;
-
+ color: blue;
 }
 .slide-page1{
   background-color: #ffffff;
@@ -172,10 +171,8 @@ section{
   margin-top: 50px;
 }
 
-
-
 .flex-my-button {
-  width: 50%;
+width: 50%;
 display: inline-block;
 right: 10px;
 bottom: 10px;

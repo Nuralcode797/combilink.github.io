@@ -2,20 +2,25 @@
 /* contact us */
 .slide-page5{
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     gap: 3rem;
     /* background-image: url(assets/contact.png); */
-    background-size:cover;
-  
+    /* background-size:cover; */
+    align-items:flex-end;
+    padding-right: 10%;
+
   }
   
   .form {
+    
+    border: 2px solid #000000;
     position: relative;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
-    width: 30rem;
+    width: 40%;
+    height: 50%;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -23,7 +28,7 @@
   }
   
   .form .title {
-    color: royalblue;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -39,12 +44,12 @@
     padding: 8px 14px;
     border-radius: 8px;
     width: 100%;
-    height: 50px;
+    height: 10%;
   }
   
   .form textarea {
     border-radius: 8px;
-    height: 100px;
+    height: 60%;
     width: 100%;
     resize: none;
     outline: 0;
@@ -64,4 +69,19 @@
     color: #fff;
     cursor: pointer;
   }
+
+  .input-field, .textarea-field::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+  }
   
+  .slide-page5.form{
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .text-pg-05{
+    font-family: 'Josefin Sans';
+    font-size: larger;
+    font-size: 4.5vw;
+  }

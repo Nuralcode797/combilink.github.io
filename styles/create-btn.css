@@ -1,14 +1,22 @@
-
 /* create button */
+.container
+{
+  display: inline-block;
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  z-index: 99;
+}
 .cssbuttons-io-button {
-    background: #A370F0;
+  display: inline-block;
+    background: linear-gradient(45deg ,#fc5f5f, #9bb4fe);
     color: white;
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
     font-size: 17px;
     font-weight: 500;
-    border-radius: 0.9em;
+    border-radius: 1em;
     border: none;
     letter-spacing: 0.05em;
     display: flex;
