@@ -7,8 +7,9 @@
   right: 5rem;
   z-index: 99;
 }
+
 .cssbuttons-io-button {
-  display: inline-block;
+    display: inline-block;
     background: linear-gradient(45deg ,#fc5f5f, #9bb4fe);
     color: white;
     font-family: inherit;
